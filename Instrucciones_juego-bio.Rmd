@@ -8,7 +8,9 @@ David Flores Jiménez  "
 date: "BIOINFORMÁTICA
 
 Roberto Álvarez "
-output: html_document
+output: 
+  prettydoc::html_pretty:
+    theme: leonids
 ---
 
 # **Bienvenido al juego de Adivina Quien! **
